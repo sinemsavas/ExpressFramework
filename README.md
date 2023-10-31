@@ -1,15 +1,8 @@
-# ExpressFramework
+I developed a web application using technologies such as MongoDB, JSON, JavaScript, Pug Template, Super Test, Chai Test, and NPM scripts. The primary functionality of this application involved loading the contents of a JSON file based on the specified URL parameter. The JSON file contained information about arithmetic operations and their respective arguments, including the type of operation (addition, subtraction, multiplication, or division), the first argument 'x,' and the second argument 'y.'
 
-#MongoDB, JSON, JAVASCRIPT, PUG TEMPLATE,SUPER TEST, CHAI TEST, NPM SCRIPTS
+The application performed the following tasks:
 
-#Loads the contents of a JSON file with the given (in the URL) name — the file should contain information about arithmetic operations and their arguments, i.e .: operation, x, and y, where:
-operation
-An arithmetic operation: addition, subtraction, multiplication or division
-x
-First argument of an arithmetic operation
-y
-Second argument of the arithmetic operation
-Calculates the result of each operation
-It displays this result as a table
-
-#The handler of this route, in addition to printing the output of the form: <firstNumber> <operation> <secondNumber> = <result>, is to insert into the MongoDB database three values: operation, x, and y
+Calculated the result of each arithmetic operation.
+Displayed the results in a tabular format.
+Additionally, the route handler for this application not only printed the results but also inserted three values - operation, 'x,' and 'y' - into a MongoDB database.
+This project showcased my proficiency in working with various web technologies and my ability to create a functional web application for processing and storing data in a database.
